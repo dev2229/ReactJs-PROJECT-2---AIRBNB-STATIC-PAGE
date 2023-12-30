@@ -1,0 +1,137 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  background-color: rgb(243, 240, 235);
+}
+
+nav {
+  margin: 0;
+  height:50px;
+  display: flex;
+  background-color: bisque;
+  padding: 10px 20px;
+  box-shadow: 0px 2.98256px 7.4564px rgb(0,0,0,0.1);
+}
+
+.nav-logo{
+
+  height: 70px;
+  
+}
+
+section {
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-photo {
+  width: 80%;
+  align-self: center;
+}
+
+.header-main {
+  margin-bottom: 16px;
+  font-size: 40px;
+}
+
+.header-text {
+  margin-top: 0px;
+}
+
+.card {
+  font-size: 12px;
+  flex: 0 0 auto;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+  position: relative;
+  
+}
+.card-image {
+  width: 175PX;
+  height: 236px;
+  border-radius: 9px;
+  margin-bottom: 9px;
+}
+
+.card-stats {
+  display: flex;
+  align-items:center;
+}
+
+.card-star {
+  display: flex;
+  height: 14px;
+}
+
+.card-title{
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.greey {
+  color: red;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.card-list {
+  display: flex;
+  flex-wrap: wrap; /* Allow cards to wrap to the next line on smaller screens */
+  gap: 5px; /* Adjusted gap between cards for smaller screens */
+  align-items: center;
+
+}
+
+.card-badge{
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
+}
+
+/* Footer.css */
+
+.footer {
+  background-color: bisque;
+  color: rgb(234, 83, 83);
+  font-size: 30px;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0px -5px 15px rgb(0,0,0,0.1);
+}
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  color: rgb(234, 83, 83);
+  font-size: 20px;
+  margin-right: 50px;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: white; /* Change color on hover (for Twitter) */
+}
+
+
+
+
